@@ -1,0 +1,20 @@
+// vite.config.js
+import { defineConfig } from "file:///home/project/node_modules/vite/dist/node/index.js";
+var vite_config_default = defineConfig({
+  root: "frontend",
+  server: {
+    host: true,
+    port: 5173,
+    open: false,
+    strictPort: true,
+    allowedHosts: true,
+    cors: true,
+    headers: {
+      "Access-Control-Allow-Origin": "*"
+    }
+  }
+});
+export {
+  vite_config_default as default
+};
+//# sourceMappingURL=data:application/json;base64,ewogICJ2ZXJzaW9uIjogMywKICAic291cmNlcyI6IFsidml0ZS5jb25maWcuanMiXSwKICAic291cmNlc0NvbnRlbnQiOiBbImNvbnN0IF9fdml0ZV9pbmplY3RlZF9vcmlnaW5hbF9kaXJuYW1lID0gXCIvaG9tZS9wcm9qZWN0XCI7Y29uc3QgX192aXRlX2luamVjdGVkX29yaWdpbmFsX2ZpbGVuYW1lID0gXCIvaG9tZS9wcm9qZWN0L3ZpdGUuY29uZmlnLmpzXCI7Y29uc3QgX192aXRlX2luamVjdGVkX29yaWdpbmFsX2ltcG9ydF9tZXRhX3VybCA9IFwiZmlsZTovLy9ob21lL3Byb2plY3Qvdml0ZS5jb25maWcuanNcIjtpbXBvcnQgeyBkZWZpbmVDb25maWcgfSBmcm9tIFwidml0ZVwiO1xuXG5leHBvcnQgZGVmYXVsdCBkZWZpbmVDb25maWcoe1xuICByb290OiBcImZyb250ZW5kXCIsXG4gIHNlcnZlcjoge1xuICAgIGhvc3Q6IHRydWUsXG4gIHBvcnQ6IDUxNzMsXG4gIG9wZW46IGZhbHNlLFxuICBzdHJpY3RQb3J0OiB0cnVlLFxuICBhbGxvd2VkSG9zdHM6IHRydWUsXG4gIGNvcnM6IHRydWUsXG4gIGhlYWRlcnM6IHtcbiAgICAgIFwiQWNjZXNzLUNvbnRyb2wtQWxsb3ctT3JpZ2luXCI6IFwiKlwiLFxuICAgIH0sXG4gIH0sXG59KTtcbiJdLAogICJtYXBwaW5ncyI6ICI7QUFBeU4sU0FBUyxvQkFBb0I7QUFFdFAsSUFBTyxzQkFBUSxhQUFhO0FBQUEsRUFDMUIsTUFBTTtBQUFBLEVBQ04sUUFBUTtBQUFBLElBQ04sTUFBTTtBQUFBLElBQ1IsTUFBTTtBQUFBLElBQ04sTUFBTTtBQUFBLElBQ04sWUFBWTtBQUFBLElBQ1osY0FBYztBQUFBLElBQ2QsTUFBTTtBQUFBLElBQ04sU0FBUztBQUFBLE1BQ0wsK0JBQStCO0FBQUEsSUFDakM7QUFBQSxFQUNGO0FBQ0YsQ0FBQzsiLAogICJuYW1lcyI6IFtdCn0K
